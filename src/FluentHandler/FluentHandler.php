@@ -49,8 +49,7 @@ class FluentHandler extends AbstractProcessingHandler
      */
     public function write(array $record)
     {
-        $data = $record;
-        $data['level'] = Logger::getLevelName($record['level']);
+        $record['level'] = Logger::getLevelName($record['level']);
         $tag  = $record['channel'] . '.' . $record['message'];
         $this->logger->post($tag, $record);
     }
