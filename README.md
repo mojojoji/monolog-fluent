@@ -1,5 +1,9 @@
 Fluentd Handler for Monolog
 
+This is inspired from
+[dakatsuka/MonologFluentHandler](https://github.com/dakatsuka/MonologFluentHandler)
+
+
 ## Installation
 
 Add this lines to your composer.json:
