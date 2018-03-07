@@ -5,7 +5,7 @@ Fluentd Handler for Monolog
 Add this lines to your composer.json:
 
 ```bash
-$ composer require monolog-fluent
+$ composer require jojihere/monolog-fluent
 ```
 
 ## Usage
